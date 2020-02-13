@@ -1,0 +1,18 @@
+{
+  "name": "acMonitor",
+  "version": "1.0.0",
+  "main": "./src/bot/server.js",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.7.0",
+    "commitizen": "^4.0.3",
+    "cron": "^1.8.2",
+    "documentation": "^12.1.4",
+    "dotenv": "^8.2.0",
+    "git-cz": "^4.3.1",
+    "readme-md-generator": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node ./src/bot/server.js"
+  }
+}
