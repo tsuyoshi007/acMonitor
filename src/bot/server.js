@@ -20,6 +20,9 @@ var server = net.createServer(function(sock) {
     }
     sock.end();
   });
+  sock.on("error", err => {
+    console.log(err);
+  });
 });
 
 server.listen(5674, "0.0.0.0");
